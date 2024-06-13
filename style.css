@@ -1,0 +1,97 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 200px;
+    width: 800px;
+
+    grid-template-areas: 
+    'box1 box2 box3' 
+    'box4 box4 box4';
+    
+    gap: 5px;
+    padding: 2px;
+    margin: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+
+.box1 {
+    background-color: brown;
+    height: 100px;
+    width: 200px;
+    border: 1px;
+    grid-area: box1;
+}
+
+.box2 {
+    background-color: brown;
+    height: 100px;
+    width: 200px;
+    border: 1px;
+    grid-area: box2;
+}
+
+.box3 {
+    background-color: brown;
+    height: 100px;
+    width: 200px;
+    border: 1px;
+    grid-area: box3;
+}
+
+.box4 {
+    background-color: brown;
+    height: 500px;
+    width: 600px;
+    border: 1px;
+    grid-area: box4;
+}
+
+.circle1 {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.circle2 {
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.circle3 {
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.circle4 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.circle5 {
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.circle6 {
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 2;
+}
